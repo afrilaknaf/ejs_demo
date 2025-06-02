@@ -33,6 +33,6 @@ app.get("/",(req,res)=>{
 })
 app.post("/",(req,res)=>{
     person_data.push(req.body.person);
-    res.redirect("/demo")
+    res.redirect("/")
 })
 app.listen(port,console.log('server running on',port))
